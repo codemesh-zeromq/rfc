@@ -10,3 +10,7 @@ receive a reply
 req: hello (case insensitive)
 rep: world
 
+
+#Server
+## Edgenet
+* 192.168.43.141
