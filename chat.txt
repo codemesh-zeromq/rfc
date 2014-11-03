@@ -8,7 +8,7 @@ CAP application port is 7315.
 
 The network listener will use a SUB socket to CONNECT to everyone in the
 network on CAP application port and SUBSCRIBE to every message. CAP
-application will print received messages to standard output. CAP
+network thread will print received messages to standard output. CAP
 applications subscribe to the empty string, receiving all messages on
 the network.
 
