@@ -1,0 +1,5 @@
+port 7314
+
+announcer: connects to all ips in subnet on port and send own ip
+
+listener: bind to 7314 and receive ip
