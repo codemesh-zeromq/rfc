@@ -1,5 +1,5 @@
 port 7314
 
-announcer: connects to all ips in subnet on port and send own ip every second.
+announcer (PUB): connects to all ips in subnet on port and send own ip every second.
 
-listener: bind to 7314 and receive all ips
+listener (SUB): bind to 7314 and receive all ips
