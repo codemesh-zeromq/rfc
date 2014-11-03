@@ -1,0 +1,17 @@
+Chat application protocol (CAP)
+
+CAP applications have two threads:
+- Network listener
+- UI thread
+
+CAP application port is 7315.
+
+The network listener will use a SUB socket to CONNECT to everyone in the
+network on CAP application port and SUBSCRIBE to every message. CAP
+network thread will print received messages to standard output. CAP
+applications subscribe to the empty string, receiving all messages on
+the network.
+
+The UI thread will use a PUB socket to BIND to the local interface on
+CAP application port. Text received from standard input will be
+sent to the UI threads PUB socket.
