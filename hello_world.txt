@@ -8,9 +8,12 @@ receive a reply
 ##over tcp:7313
 
 req: hello (case insensitive)
-rep: world (from [github username])
+rep: world
 
 
 #Server
 ## Edgenet
 * 192.168.43.141
+
+## Guess Who
+* 172.20.10.2-...
